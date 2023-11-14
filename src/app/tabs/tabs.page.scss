@@ -1,1 +1,15 @@
-
+ion-tab-bar, ion-tab-button{
+    background-color: rgb(28, 28, 28);
+}
+  
+  ion-tab-bar {
+    --color: rgb(138, 138, 138)!important;
+    --font-size: 9px;
+    --font-style: normal;
+    --font-weight: 600;
+    --line-height: normal;
+  }
+  
+  ion-tab-button {
+    --color-selected: #ffffff;
+  }

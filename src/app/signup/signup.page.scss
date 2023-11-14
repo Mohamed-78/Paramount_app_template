@@ -1,0 +1,16 @@
+ion-header {
+    .header-element {
+      display: flex;
+      justify-content: space-around;
+      
+      ion-icon {
+        color: #000;
+        font-size: 27px;
+        align-self: center;
+      }
+  
+      h6 {
+        font-size: 22px;
+      }
+    }
+}

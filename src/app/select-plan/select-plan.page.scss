@@ -1,0 +1,86 @@
+ion-header{
+    ion-toolbar {
+        .icon-position {
+          display: flex;
+          justify-content: space-between;
+    
+          .hidden {
+            visibility: hidden;
+          }
+    
+          h6{
+            color: #000;
+            font-size: 18px;
+          }
+      
+          ion-icon {
+            margin-top: 0.5em;
+            font-size: 25px;
+            color: #000;
+          }
+        }
+    }
+
+    .custom-hr {
+        width: 100%;
+        border: none;
+        height: 1px;
+        background-color: #e4e2e2;
+        margin: 0;
+    }
+      
+}
+
+ion-content{
+    .plan-element{
+        margin-bottom: 2em;
+        text-align: center;
+
+        h6{
+            font-size: 20px;
+
+            span{
+                font-size: 17px;
+            }
+        }
+    }
+
+    .pick-plan{
+        .monthly{
+            padding: 2.5em;
+            background: linear-gradient(to right, rgb(41, 63, 136), rgb(39, 94, 240));
+            text-align: center;
+            color: #fff;
+            h6{
+                font-size: 20px;
+    
+                span{
+                    font-size: 15px;
+                }
+            }
+            
+            margin-bottom: 10px;
+        }
+    
+        .annual{
+            padding: 2.5em;
+            border: 1.5px solid #949494;
+            text-align: center;
+            color: #000;
+            h6{
+                font-size: 20px;
+    
+                span{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+}
+ion-footer{
+    text-align: center;
+    color: #fff;
+    padding: 1.5em;
+    background: linear-gradient(to right, rgb(41, 63, 136), rgb(39, 94, 240));
+}

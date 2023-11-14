@@ -1,0 +1,19 @@
+<ion-content>
+  <div class="logo-width">
+    <img src="../../assets/images/logo-removebg-preview.png">
+  </div>
+  <swiper-container (afterinit)="swiperReady()" (slidechange)="swiperSlideChanged($event)"
+  [autoplay]="true" [pagination]="{clickable: true, dynamicBullets: true}" css-mode="true">
+    <swiper-slide>WELCOME TO PARAMOUNT+</swiper-slide>
+    <swiper-slide>A MOUTAIN OF ENTERTAINMENT.</swiper-slide>
+    <swiper-slide>ICONIC BLOCKBUSTER MOVIES</swiper-slide>
+  </swiper-container>
+  <div class="ion-padding">
+    <h6 class="color-white">Join now & get 7 days FREE.<br>Subscribe for $6.99 / mounth. Cancel anytime.</h6>
+  </div>
+  <div class="container-button">
+    <ion-button routerLink="/signup" expand="full" class="fixed-width-button">SIGN UP FOR PARAMOUNT+</ion-button>
+    <ion-button expand="full" class="fixed-width-button-without-bg">SIGN IN WITH PARAMOUNT+</ion-button>
+    <ion-button expand="full" class="fixed-width-button-without-bg">SIGN IN WITH PARTNER</ion-button>
+  </div>
+</ion-content>
